@@ -30,7 +30,7 @@ class Validator {
             return "valid line";
         }
 
-        return "Invalid line";
+        throw new Error("Invalid line");
     }
 
 

@@ -1,10 +1,8 @@
 class Stack {
 
-    #array_stack;
+    #array_stack = [];
 
-    constructor() {
-        this.#array_stack = [];
-    }
+    constructor() {}
 
     get array_stack() {
         return this.#array_stack;
